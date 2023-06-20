@@ -1,83 +1,221 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Produtos</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="blackcatcirc.ico" type="image/x-icon">
+  <title>programming between friends</title>
+  <style>
+    ul {
+      text-align: justify;
+    }
+
+    ol {}
+  </style>
 </head>
-         
+
+<header>
+
+  <nav>
+    <div id="timer"></div>
+    <div id="headertitle" class="">Programming<br>Bettwen<br>Friends<br></div>
+    <div id="headeragenda" class="typeheader">
+      <buttom>CONFIRA A AGENDA COMPLETA</buttom>
+    </div>
+    <div id="headeringresso" class="typeheader">
+      <buttom>COMPRE SEU INGRESSO</buttom>
+    </div>
+    <div id="headercontagem" class="typeheader">ENTRE PARA O PBF</div>
+  </nav>
+</header>
+
 <body>
-    <header>
-        <h1>Sildo Moveis</h1>
-    </header>
-    
-    <main>
-        <section class="product">
-            <img src="https://images.tcdn.com.br/img/img_prod/988511/aparador_cantinho_do_cafe_109_1_eb3cd1b895a901c016c0ea4b010d1c17.jpg" alt="Produto 1">
-            <h2>Aparador Cantinho do café</h2>
-            <p>O "Aparador Cantinho do Café" é um móvel elegante e funcional,<br>
-                projetado para otimizar espaços pequenos e oferecer um local dedicado<br>
-                para todos os itens relacionados ao café. Com seu design moderno e prático,<br>
-                combina durabilidade e estilo, adicionando charme ao ambiente.</p>
-            <p>Preço: R$ 660,00</p>
-        </section>
-      
-        <section class="product">
-            <img src="https://images.tcdn.com.br/img/img_prod/988511/escrivaninha_jazz_103_1_861c5cd1c9671eedf5870bd1d5c5eec1.jpg" alt="Produto 2">
-            <h2>Escrivaninha Jazz</h2>
-            <p>A "Escrivaninha Jazz" é uma peça de mobiliário versátil e elegante,<br>
-                projetada para proporcionar um espaço de trabalho funcional e inspirador.<br>
-                Com seu design moderno e acabamento de alta qualidade, combina estilo e praticidade<br>
-                para criar um ambiente de trabalho sofisticado.</p>
-            <p>Preço: R$ 440,00</p>
-        </section>
-      
-        <section class="product">
-            <img src="https://images.tcdn.com.br/img/img_prod/988511/home_hortensia_137_1_a7a2e94adbd6064164c8b221478c6fdc.jpg" alt="Produto 3">
-            <h2>Home Hortensia</h2>
-            <p>O "Home Hortência" é um móvel completo e versátil,<br>
-                projetado para trazer organização e estilo para a sua sala de estar.<br>
-                Com seu design contemporâneo e espaços bem planejados, oferece amplo armazenamento<br>
-                para seus eletrônicos, livros e decorações, ao mesmo tempo em que adiciona um toque elegante ao ambiente.</p>
-            <p>Preço: R$ 1.199,00</p>
-        </section>
-        
-        <section class="product">
-            <img src="https://images.tcdn.com.br/img/img_prod/988511/modulado_azaleia_6050_183_1_989939bf0c35c78777fa04e18386a2a8.jpg" alt="Produto 4">
-            <h2>Modulado Azaleia</h2>
-            <p>O "Modulado Azaleia" é um sistema de móveis modular que oferece <br>
-                infinitas possibilidades de organização e personalização para o seu ambiente.<br>
-                Com seu design versátil e funcional, permite que você crie uma solução sob medida<br>
-                para armazenar seus itens, oferecendo praticidade e estilo em um único conjunto de móveis.</p>
-            <p>Preço: R$ 800,00</p>
-        </section>
-        
-        <section class="product">
-            <img src="https://images.tcdn.com.br/img/img_prod/988511/rack_magnolia_193_1_b2047630ae1567acf14692e4761dc2fe.jpg" alt="Produto 5">
-            <h2>Rack Magnolia</h2>
-            <p>O "Rack Magnólia" é um móvel sofisticado e moderno, <br>
-                ideal para a sua sala de estar. Com seu design elegante e espaços amplos,<br>
-                oferece um local perfeito para acomodar sua TV, aparelhos eletrônicos e objetos decorativos. <br>
-                Combinando funcionalidade e estilo, o Rack Magnólia se destaca como uma peça central para <br>
-                o entretenimento e organização do seu ambiente.</p>
-            <p>Preço: R$ 899,00</p>
-        </section>
-        
-        <section class="product">
-            <img src="https://images.tcdn.com.br/img/img_prod/988511/roupeiro_maracatu_4_portas_e_2_gavetas_113_1_b3d9600fdaa012a9fe4b463de01c99a5.jpg" alt="Produto 6">
-            <h2>Roupeiro Maracatu</h2>
-            <p>O "Roupeiro Maracatu" é um móvel espaçoso e elegante,
-                projetado para atender às suas necessidades de armazenamento e organização de roupas.<br>
-                Com seu design contemporâneo e detalhes cuidadosamente elaborados, oferece amplo espaço interno,<br>
-                com gavetas, prateleiras e cabideiros, permitindo que você mantenha suas roupas e acessórios de forma organizada e acessível.<br>
-                O Roupeiro Maracatu combina funcionalidade com estilo, adicionando um toque de beleza ao seu espaço.</p>
-            <p>Preço: R$ 750,00</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2023 Sildo Moveis. Todos os direitos reservados.</p>
-    </footer>
+
+  <main>
+    <h1 id="titulomain" class="gradient">Programming<br>Bettwen<br>Friends<br></h1>
+    <div class="center">
+      <div class="msglocal">11 de Março | Vale do Silicio</div>
+    </div>
+
+    <div class="center">
+      <p class="msglocal">EM 2026 O SEU UNIVERSO <br> VAI EXPANDIR</p>
+
+    </div>
+
+    <div class="center">
+      <p class="textoenfeite">
+        Que a tecnologia é indispensável para as empresas crescerem hoje, todos sabemos. <br> O grande desafio está em
+        nos tornarmos profissionais estratégicos, <br> capazes de usar a tecnologia para atingir os objetivos de negócio
+        das nossas áreas e empresas. <br> No PFB 2026, teremos trilhas de conteúdos pensadas
+        para apoiar você nessa jornada. <br> Vem com a gente!
+      </p>
+
+    </div>
+
+    <div class="center">
+      <picture class="picpersons">
+        <img src="blackcatcirc.ico" alt="Palestrante Líder">
+        <h3 class="namepersons">Kawan Melo</h3>
+        <p class="parapersons">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Eum consequuntur suscipit
+          tempore impedit ex mollitia eligendi sit. <br> Explicabo nulla sint a, officia sunt incidunt pariatur beatae
+          enim rem sit? Ipsam.</p>
+      </picture>
+    </div>
+
+    <div class="center">
+      <picture class="picpersons">
+        <img src="ravencirc.ico" alt="Palestrante">
+        <h3 class="namepersons">Mateus</h3>
+        <p class="parapersons">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Eum consequuntur suscipit
+          tempore impedit ex mollitia eligendi sit. <br> Explicabo nulla sint a, officia sunt incidunt pariatur beatae
+          enim rem sit? Ipsam.</p>
+      </picture>
+    </div>
+
+    <div class="center">
+      <picture class="picpersons">
+        <img src="cat2.ico.ico" alt="Palestrante">
+        <h3 class="namepersons">Gabriel</h3>
+        <p class="parapersons">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Eum consequuntur suscipit
+          tempore impedit ex mollitia eligendi sit. <br> Explicabo nulla sint a, officia sunt incidunt pariatur beatae
+          enim rem sit? Ipsam.</p>
+      </picture>
+    </div>
+
+    <div id="carddata" class="card">
+      <p class="titlecards">DATAS</p>
+      <br>
+      <p class="textcards">
+        Incrições até: 07/03/2026
+        <br><br>
+        Início: 11/03/2026 às 07:00 PM
+        <br><br>
+        Término: 11/03/2026 às 11:00 PM
+        <br><br>
+      </p>
+
+    </div>
+    <div>
+      <div id="cardassuntos" class="card">
+        <p class="titlecards">ASSUNTOS</p>
+        <br>
+        <p class="titlecards">
+          Carreira de Programador <br>
+        <ul class="ulcards">
+          <li>Como iniciar ?</li>
+          <br>
+          <li>Quanto tempo é preciso?</li>
+          <br>
+          <li>Vou conseguir ?</li>
+        </ul>
+
+      </div>
+      <div id="cardfriends" class="card">
+        <p class="titlecards">PARTICIPANTES</p><br>
+        <ul>
+          <li>Kawan Melo</li>
+          <br>
+          <li>Mateus Lopes</li>
+          <br>
+          <li>Gabriel Alves</li>
+        </ul>
+        </p>
+      </div>
+
+      <div class="center">
+        <div id="cardpasscomum" class="cardprecos">Comum Pass <br>
+          <hr>
+          <p class="simbolopreco">R$</p>
+          <p class="textpreco">798,00</p>
+          <div id="desccomum" class="descricaopreco">
+            <ol>
+              <li>Participação em 2 dias de evento</li>
+              <hr>
+              <li>Acesso à plenária principal e todas as demais áreas de conteúdo</li>
+              <hr>
+              <li>Acesso às ofertas exclusivas do
+                Universo PBF</li>
+              <hr>
+              <li>Happy Hour</li>
+            </ol>
+          </div>
+        </div>
+        <div id="cardpasspremium" class="cardprecos">Premium Pass <br>
+          <hr>
+          <p class="simbolopreco">R$</p>
+          <p class="textpreco">1098,00</p>
+          <div id="descprem" class="descricaopreco">
+            <ol>
+              <li>Participação em 2 dias de evento</li>
+              <hr>
+              <li>Acesso à plenária principal e todas as demais áreas de conteúdo</li>
+              <hr>
+              <li>Acesso às ofertas exclusivas do
+                Universo PBF</li>
+              <hr>
+              <li>Happy Hour</li>
+              <hr>
+              <li>Credenciamento exclusivo</li>
+              <hr>
+              <li>Kit exclusivo</li>
+              <hr>
+              <li>Acesso ao Lounge PBF</li>
+
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
 </body>
+
+<footer>
+  <footer class="rodape" id="contato">
+    <div class="rodape-div">
+
+      <div class="rodape-div-1">
+        <div class="rodape-div-1-coluna">
+          <!-- elemento -->
+          <span>PBF</span>
+          <p>PBF Trecho 7 lote 007 bloco K sala 014 - João Pessoa - PB , 257914-077</p>
+        </div>
+      </div>
+
+      <div class="rodape-div-2">
+        <div class="rodape-div-2-coluna">
+          <!-- elemento -->
+          <span><b>Contatos</b></span>
+          <p>kawangcmelo@gmail.com</p>
+          <p>+55 81 98951 - 5575</p>
+        </div>
+      </div>
+
+      <div class="rodape-div-3">
+        <div class="rodape-div-3-coluna">
+          <!-- elemento -->
+          <span><b>Links</b></span>
+          <p><a href="#servicos">Serviços</a></p>
+          <p><a href="#empresa">Empresa</a></p>
+          <p><a href="#sobre">Sobre</a></p>
+        </div>
+      </div>
+
+      <div class="rodape-div-4">
+        <div class="rodape-div-4-coluna">
+          <!-- elemento -->
+          <span><b>Outros</b></span>
+          <p>Políticas de Privacidade</p>
+        </div>
+      </div>
+
+    </div>
+    <p class="rodape-direitos">Copyright © 2023 – Kawan G. C. de Melo.</p>
+  </footer>
+</footer>
+
 </html>
